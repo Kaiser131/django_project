@@ -7,10 +7,9 @@ import random
 
 # Mock weather database
 MOCK_WEATHER = {
-    "dhaka": {"temperature": 33, "description": "Hot and humid", "icon": "☀️"},
-    "chattogram": {"temperature": 30, "description": "Partly cloudy", "icon": "⛅"},
-    "sylhet": {"temperature": 28, "description": "Rainy", "icon": "🌧️"},
-    "rajshahi": {"temperature": 35, "description": "Very hot", "icon": "🔥"},
+    "mathura": {"cordinate":"77.69.27.5","temp": "302.319k", "pressure": 1002.81, "humidity": 65},
+    "texas": {"cordinate":"34.2000.85.9","temp": "305.39k", "pressure": 900.81, "humidity": 45},
+    "new york": {"cordinate":"246.200.39.4","temp": "275.98k", "pressure": 955.8, "humidity": 75},
 }
 
 def index(request):
